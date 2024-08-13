@@ -5,7 +5,7 @@ const app=express();
 
 //connection
 
-mongoose.connect("mongodb+srv://HARSHKHANT:harsh%405531@harshcluster.1dbct.mongodb.net/").then(()=>{
+mongoose.connect("Add Connection String").then(()=>{
     console.log("Connected to Mongo DB");
 }).catch((err)=>{
     console.log(err);
